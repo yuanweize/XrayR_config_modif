@@ -20,6 +20,7 @@ def add_rule():
                 node["ApiConfig"]["RuleListPath"]='/etc/XrayR/rulelist'
         with open(r"/etc/XrayR/config.yml","w") as file:
             YAML().dump(data,file)
+        os.system("systemctl restart XrayR")
         print('finish')
     else:
         print("XrayR/config.yml not exist")
