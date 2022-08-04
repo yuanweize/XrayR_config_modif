@@ -1,5 +1,7 @@
 import os
 import sys
+
+import yaml
 def import_pyyaml():
     try:
         import yaml
@@ -11,10 +13,13 @@ def import_pyyaml():
         import yaml
 def add_rule():
     if os.path.exists(r"/etc/XrayR/config.yml")==True:
-        print("yes")
+        with open(r"/etc/XrayR/config.yml") as file:
+            data=yaml.load(file)
+            print(data)
+
     else:
-        print("no")
-    # print(sys.modules)
+        print("XrayR/config.yml not exist")
+
 
 if __name__=="__main__":
     import_pyyaml()
