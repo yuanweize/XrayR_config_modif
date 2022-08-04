@@ -4,7 +4,7 @@ def import_yaml():
     try:
         import yaml
     except ImportError:
-        if "command not found" in os.popen("pip3"):
+        if "not found" in os.popen("pip3"):
             print("yes")
         # os.system("apt install python3-pip&&pip3 install pyyaml")
 
