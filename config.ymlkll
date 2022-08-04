@@ -1,0 +1,244 @@
+Log:
+  Level: debug
+  AccessPath: /etc/XrayR/access.Log
+  ErrorPath: /etc/XrayR/error.log
+DnsConfigPath:
+Nodes:
+- PanelType: V2board
+  ApiConfig:
+    RuleListPath: /etc/XrayR/rulelist
+    ApiHost: https://subscribe.hktech.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 24
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.hktech.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 1
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.hktech.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 13
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.hktech.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 30
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.hktech.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 34
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.hktech.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 41
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.hktech.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 42
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.euvpn.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 24
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.euvpn.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 1
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.euvpn.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 13
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.euvpn.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 30
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.euvpn.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 34
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.euvpn.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 41
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
+- PanelType: V2board
+  ApiConfig:
+    ApiHost: https://subscribe.euvpn.top
+    ApiKey: yuanweizeyuanweize
+    NodeID: 42
+    NodeType: V2ray
+    Timeout: 30
+    DeviceLimit: 2
+    EnableVless: false
+    EnableXTLS: false
+    RuleListPath: /etc/XrayR/rulelist
+  ControllerConfig:
+    ListenIP: 0.0.0.0
+    UpdatePeriodic: 60
+    EnableDNS: false
+    CertConfig:
+      CertMode: none
