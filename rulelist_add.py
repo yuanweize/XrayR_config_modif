@@ -13,9 +13,9 @@ def add_rule():
     if os.path.exists(r"/etc/XrayR/config.yml")==True:
         print("yes")
     else:
-        print(sys.modules)
+        print("no")
     # print(sys.modules)
 
 if __name__=="__main__":
     import_pyyaml()
-    # add_rule()
+    add_rule()
